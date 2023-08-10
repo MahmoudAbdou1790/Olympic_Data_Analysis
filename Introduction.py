@@ -6,7 +6,7 @@ import seaborn as sns
 import plotly.figure_factory as ff
 import streamlit as st
 
-Olympic= pd.read_csv('Cleaned_Olympic2.csv')
+Olympic= pd.read_csv('C:/Users/Acer/Olympic2/dataset_olympics2.csv')
 st.title("Olympic 🥇 ⛳🥅🏋️‍♀️🚴‍♂️ Data Analysis")
 st.image('rio-de-janeiro-2016-1177950_1280.jpg', width=500)
 st.write("## Introduction")
